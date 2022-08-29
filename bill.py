@@ -1,4 +1,4 @@
-
+#hi
 #import csv 
 #import time
 #import random
@@ -53,6 +53,7 @@ def invoice():
 
     sw.writerow([                    lines                                 ])
     sw.writerow([f" Total items : {i1} " , f" Total quantity : {q} " , f" Total Ammount : {am} "])
+    
     
 invoice()
     
