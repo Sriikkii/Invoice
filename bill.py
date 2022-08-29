@@ -2,13 +2,53 @@
 import csv 
 #import time
 #import random
+net_ammount = 0
+def number ():
+    f = open ("bill.csv","a")
+    sw = csv.writer(f)
+    number=["","One","Two","Three","Four","Five","Six","Seven","Eight","Nine"]
+    nty=["","","Twenty","Thirty","Fourty","Fifty","Sixty","Seventy","Eighty","Ninty"]
+    tens=["Ten","Eleven","Twelve","Thirteen","Fourteen","Fifteen","Sixteen","Seventeen","Eighteen","Nineteen"]
+    global net_ammount
+    net_ammount
+    if net_ammount>99999:
+        print("Cant solve for more than 5 digits")
+    else:
+        d=[0,0,0,0,0]
+        i=0
+        while net_ammount>0:
+            d[i]=net_ammount%10
+            i+=1
+            net_ammount=net_ammount//10
+        num=""
+        if d[4]!=0:
+            if(d[4]==1):
+                num+=tens[d[3]]+ " Thousand "
+            else:
+                num+=nty[d[4]]+" "+number[d[3]]+  " Thousand "
+        else:
+            if d[3]!=0:
+                num+=number[d[3]]+ " Thousand "
+        if d[2]!=0:
+            num+=number[d[2]]+" Hundred "
+        if d[1] != 0:
+            if (d[1] == 1):
+                num += tens[d[0]]
+            else:
+                num += nty[d[1]] + " " + number[d[0]]
+        else:
+            if d[0] != 0:
+                num += number[d[0]]
+        sw.writerow([num])
+        
 s = []
-f = open("bill.csv",'w')
+f = open("bill.csv",'a')
 def invoice():
+    
     import csv 
     import time
     import random
-    f = open("bill.csv",'w')
+    f = open("bill.csv",'a')
     sw = csv.writer(f)
     k = ["                                  Srikaanth stores                             "]
     sw.writerow(k)
@@ -29,7 +69,15 @@ def invoice():
     else:
         print("Invalid choice,enter number from 1 to 4")
     sw.writerow([f"                              Payment mode : {t_payment} "                               ])
-    n = random.randint(1,10000)
+    n = 0
+    while True:
+        if n == 0 :
+            n+=1
+            gg = input("enter y to break")
+            if gg != 'y':
+                break
+            else:
+                break
     time = time.asctime()
     sw.writerow([            f"                Bill No : {n}            "   f"{time} "           ])
     lines = ("------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  ")
@@ -51,22 +99,25 @@ def invoice():
         m1 = float(mrp)
         q1 = float(qty)
         a1 = round(q1*m1)
-        amount = str(a1)
+        amount = a1
         r = [item,mrp,qty,amount]
-        result = f"{r[0]:7s} {gap} {r[1]:3s} {gap} {r[2]:6s} {gap} {r[3]:8s}"
-        sw.writerow([result])
+        result = f"{r[0]:7s} {gap} {r[1]:3s} {gap} {r[2]:6s} {gap} {r[3]:8d}"
         am += a1
         q +=  q1
         i1 += 1
         s.append([item,float(mrp),q,am])
         gst = 25/100
-        am2 = am*gst
+        am2 = round(am*gst)
+        sw.writerow([result])
         sw.writerow([                    lines                                 ])
         ch = input("enter y to continue").lower()
         if ch != 'y' :
             sw.writerow([f"Total items : {i1} " , f" Total quantity : {q} " , f" Total Ammount : {am} "])
+            
+            global net_ammount
             net_ammount = am + am2
             sw.writerow([f"Ammount to be paid : {net_ammount}"])
+            sw.writerow([number()])
             if t_payment == 1 :
                 sw.writerow([f"Recieved ammount : {net_ammount}"])
                 sw.writerow(["Balance paid : 0"])
