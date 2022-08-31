@@ -44,17 +44,18 @@ def number ():
                 sw.writerow([num])
         
 s = []
-f = open("bill.csv",'a')
+f = open("bill.csv",'a' , newline='')
 def invoice():
+    
     global b
     import csv 
     import time
     import random
-    f = open("bill.csv",'a')
-    sw = csv.writer(f)
+    f = open("bill.csv",'a',newline='')
+    sw = csv.writer(f,delimiter='\t')
     k = ["                                  Srikaanth stores                             "]
     sw.writerow(k)
-    address = ["                No 13,Madipakkam Main road, Madipakkam\n                 chennai-600091 MOBILE NUMBER : 8778092772                                                          "]
+    address = [["                No 13,Madipakkam Main road, Madipakkam\n                 chennai-600091 MOBILE NUMBER : 8778092772                                                          "]]
     sw.writerow(                                    address                                       )
     g = " 1234ZXVC26520YN"
     print("only 4 counters are there")
@@ -77,6 +78,7 @@ def invoice():
         print("Invalid choice,enter number from 1 to 4")
     sw.writerow([f"                              Payment mode : {t_payment} "                               ])
     time = time.asctime()
+    t = time.split()
     sw.writerow([            f"                Bill No : {b}            "   f"{time} "           ])
     lines = ("------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  ")
     sw.writerow([                    lines                                 ])
@@ -84,8 +86,8 @@ def invoice():
     mrp = 'MRP'
     qty = 'QTY'
     ammount = 'Total'
-    gap = ' '*5
-    heading = f"{'Name':4s}{gap}{'mrp':3s}{gap}{'qty':4s}{gap}{'total':3s} "
+    gap = ' '*10
+    heading = f"{'Name':12s}{gap} {'mrp':3s}{gap} {'qty':4s}{gap} {'total':3s} "
     sw.writerow([heading])
     am = 0 
     q = 0 
@@ -99,7 +101,7 @@ def invoice():
         a1 = round(q1*m1)
         amount = a1
         r = [item,mrp,qty,amount]
-        result = f"{r[0]:4s}{gap}{r[1]:3s}{gap}{r[2]:4s}{gap}{r[3]:3d}"
+        result = f"{r[0]:12s}{gap}{r[1]:3s}{gap}{r[2]:4s}{gap}{r[3]:3d}"
         am += a1
         q +=  q1
         i1 += 1
@@ -110,6 +112,7 @@ def invoice():
         sw.writerow([                    lines                                 ])
         ch = input("enter y to continue ").lower()
         if ch != 'y' :
+            end = f"Total items : {i1} " , f" Total quantity : {q} " , f" Total Ammount : {am} "
             sw.writerow([f"Total items : {i1} " , f" Total quantity : {q} " , f" Total Ammount : {am} "])
             
             global net_ammount
@@ -126,7 +129,7 @@ def invoice():
                     elif gc > net_ammount:
                         sw.writerow([f"  Recevied Ammount : {gc}"])
                         x = gc-net_ammount
-                        sw.writerow([f"  Balance Ammount : {x}_"])
+                        sw.writerow([f"  Balance Ammount : {x}"])
                     else:
                         print("please your given ammount is lesser than the required ammount")
                         y = net_ammount - gc 
@@ -134,15 +137,15 @@ def invoice():
                         r  = int(input("enter the above ammount to close the transcation "))
                         if r == y : 
                             sw.writerow([f" {net_ammount} Recevied Ammount"])
-                            sw.writerow(["  Balance paid : 0 "])
+                            sw.writerow([["  Balance paid : 0 "]])
                         if r > y :
                             gc+=r
                             sw.writerow([f"  Recevied ammount : {gc} "])
                             h = gc - net_ammount
                             sw.writerow([f"  Balance ammount : {h} "])
                 else :
-                    sw.writerow([f"  Recived Ammount : {net_ammount}"])
-                    sw.writerow({f"  Balance Paid : 0"})
+                    sw.writerow([f"   Recived Ammount : {net_ammount}"])
+                    sw.writerow([  f" Balance Paid : 0"])
                 break
             break
 
@@ -156,7 +159,7 @@ def invoice():
 def start():
     global b
     print("hi")
-    sw = csv.writer(f)
+    sw = csv.writer(f,delimiter='\t')
     lines = ("------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  ")
     ki = input("please enter y to bill ").lower()
     if ki == 'y':
@@ -164,7 +167,7 @@ def start():
             b+=1
             invoice()            
             co = input("are you going to bill for another customer? If yes enter y ").lower()
-            sw.writerow([                    lines                                 ])
+            sw.writerow(                    lines                                 )
             if co != 'y':
                 break
         

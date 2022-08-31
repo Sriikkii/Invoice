@@ -1,242 +1,143 @@
                                   Srikaanth stores                             
-
-"                No 13,Madipakkam Main road, Madipakkam
-                 chennai-600091 MOBILE NUMBER : 8778092772                                                          "
-
+['                No 13,Madipakkam Main road, Madipakkam\n                 chennai-600091 MOBILE NUMBER : 8778092772                                                          ']
                  GSTIN  1234ZXVC26520YN        counter no 1  
-
-                              Payment mode : cash 
-
-                Bill No : 1            Tue Aug 30 23:03:39 2022 
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-
-particulars             mrp             qty                ammount  
-
-apple               25.0             10                      250
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-
-Total items : 1 , Total quantity : 10.0 , Total Ammount : 250 
-
-Ammount to be paid : 312
-
-Ammount in words : three hundred and twelve only
-
-recevied ammount : 320
-
-Balance ammount : 8
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-
-                                  Srikaanth stores                             
-
-"                No 13,Madipakkam Main road, Madipakkam
-                 chennai-600091 MOBILE NUMBER : 8778092772                                                          "
-
-                 GSTIN  1234ZXVC26520YN        counter no 1  
-
-                              Payment mode : cash 
-
-                Bill No : 1            Tue Aug 30 23:07:27 2022 
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-
-particulars             mrp             qty                ammount  
-
-apple               24.0             2                        48
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-
-Total items : 1 , Total quantity : 2.0 , Total Ammount : 48 
-
-Ammount to be paid : 60
-
-Ammount in words : sixty only
-
-  recevied ammount : 70
-
-  Balance ammount : 10_
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-
-                                  Srikaanth stores                             
-
-"                No 13,Madipakkam Main road, Madipakkam
-                 chennai-600091 MOBILE NUMBER : 8778092772                                                          "
-
-                 GSTIN  1234ZXVC26520YN        counter no 1  
-
                               Payment mode : card 
-
-                Bill No : 1            Tue Aug 30 23:12:40 2022 
-
+                Bill No : 1            Wed Aug 31 13:12:58 2022 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-
-particulars             mrp             qty                ammount  
-
-apple               12.0             2                         24
-
+Name     mrp     qty      total 
+apple     21.0     2         42
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-
-Total items : 1 , Total quantity : 2.0 , Total Ammount : 24 
-
-Ammount to be paid : 30
-
-Ammount in words : thirty only
-
-  Recived Ammount : 30
-
-Balance Paid : 0
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-
-                                  Srikaanth stores                             
-
-"                No 13,Madipakkam Main road, Madipakkam
-                 chennai-600091 MOBILE NUMBER : 8778092772                                                          "
-
+Total items : 1 	 Total quantity : 2.0 	 Total Ammount : 42 
+Ammount to be paid : 52
+Ammount in words : fifty-two only
+   Recived Ammount : 52
+{'  Balance Paid : 0'}
+-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	 	 
+Srikaanth stores'                No 13,Madipakkam Main road, Madipakkam\n                 chennai-600091 MOBILE NUMBER : 8778092772                                                          'GSTIN  1234ZXVC26520YN        counter no 1Payment mode : cardBill No : 1            Wed Aug 31 13:12:58 2022------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------Name     mrp     qty      totalapple     21.0     2         42------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------Total items : 1 	 Total quantity : 2.0 	 Total Ammount : 42Ammount to be paid : 52Ammount in words : fifty-two onlyRecived Ammount : 52{'  Balance Paid : 0'}-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-                                  Srikaanth stores                             
+['                No 13,Madipakkam Main road, Madipakkam\n                 chennai-600091 MOBILE NUMBER : 8778092772                                                          ']
                  GSTIN  1234ZXVC26520YN        counter no 1  
-
                               Payment mode : card 
-
-                Bill No : 1            Tue Aug 30 23:15:07 2022 
-
+                Bill No : 1            Wed Aug 31 13:53:03 2022 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-
-Name             mrp             qty                ammount  
-
-apple               12.0             2                         24
-
+Name     mrp     qty      total 
+apple     12.0     23       276
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-
-Total items : 1 , Total quantity : 2.0 , Total Ammount : 24 
-
-Ammount to be paid : 30
-
-Ammount in words : thirty only
-
-  Recived Ammount : 30
-
-Balance Paid : 0
-
+water     123.0     53       6519
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-
+Total items : 2 	 Total quantity : 76.0 	 Total Ammount : 6795 
+Ammount to be paid : 8494
+Ammount in words : eight thousand, four hundred and ninety-four only
+   Recived Ammount : 8494
+{'  Balance Paid : 0'}
                                   Srikaanth stores                             
-
-"                No 13,Madipakkam Main road, Madipakkam
-                 chennai-600091 MOBILE NUMBER : 8778092772                                                          "
-
-                 GSTIN  1234ZXVC26520YN        counter no 1  
-
-                              Payment mode : cash 
-
-                Bill No : 1            Tue Aug 30 23:16:00 2022 
-
+['                No 13,Madipakkam Main road, Madipakkam\n                 chennai-600091 MOBILE NUMBER : 8778092772                                                          ']
+                 GSTIN  1234ZXVC26520YN        counter no 3  
+                              Payment mode : food card 
+                Bill No : 2            Wed Aug 31 13:53:19 2022 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-
-Name             mrp             qty                ammount  
-
-apple             12.0             4                         48
-
+Name     mrp     qty      total 
+enrgy drink     123.47     54       6667
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-
-Total items : 1 , Total quantity : 4.0 , Total Ammount : 48 
-
-Ammount to be paid : 60
-
-Ammount in words : sixty only
-
+Total items : 1 	 Total quantity : 54.0 	 Total Ammount : 6667 
+Ammount to be paid : 8334
+Ammount in words : eight thousand, three hundred and thirty-four only
+   Recived Ammount : 8334
+{'  Balance Paid : 0'}
+-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	 	 
+-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	 	 
                                   Srikaanth stores                             
-
-"                No 13,Madipakkam Main road, Madipakkam
-                 chennai-600091 MOBILE NUMBER : 8778092772                                                          "
-
+['                No 13,Madipakkam Main road, Madipakkam\n                 chennai-600091 MOBILE NUMBER : 8778092772                                                          ']
                  GSTIN  1234ZXVC26520YN        counter no 1  
-
                               Payment mode : card 
-
-                Bill No : 1            Tue Aug 30 23:16:12 2022 
-
+                Bill No : 1            Wed Aug 31 13:56:54 2022 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-
-Name             mrp             qty                ammount  
-
-apple             13.0             6                         78
-
+Name          mrp          qty           total 
+apple          12.0          3              36
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-
-Total items : 1 , Total quantity : 6.0 , Total Ammount : 78 
-
-Ammount to be paid : 98
-
-Ammount in words : ninety-eight only
-
-  Recived Ammount : 98
-
-  Balance Paid : 0
-
+water          235.0          35            8225
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-
+Total items : 2 	 Total quantity : 38.0 	 Total Ammount : 8261 
+Ammount to be paid : 10326
+Ammount in words : ten thousand, three hundred and twenty-six only
+   Recived Ammount : 10326
+ Balance Paid : 0
                                   Srikaanth stores                             
-
-"                No 13,Madipakkam Main road, Madipakkam
-                 chennai-600091 MOBILE NUMBER : 8778092772                                                          "
-
+['                No 13,Madipakkam Main road, Madipakkam\n                 chennai-600091 MOBILE NUMBER : 8778092772                                                          ']
                  GSTIN  1234ZXVC26520YN        counter no 1  
-
-                              Payment mode : card 
-
-                Bill No : 1            Tue Aug 30 23:17:27 2022 
-
+                              Payment mode : upi 
+                Bill No : 2            Wed Aug 31 13:57:07 2022 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-
-Name           mrp           qty           ammount  
-
-apple           12.0           2              24
-
+Name          mrp          qty           total 
+energy drink          245.6          20            4912
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-
-Total items : 1 , Total quantity : 2.0 , Total Ammount : 24 
-
-Ammount to be paid : 30
-
-Ammount in words : thirty only
-
-  Recived Ammount : 30
-
-  Balance Paid : 0
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-
+Total items : 1 	 Total quantity : 20.0 	 Total Ammount : 4912 
+Ammount to be paid : 6140
+Ammount in words : six thousand, one hundred and forty only
+   Recived Ammount : 6140
+ Balance Paid : 0
+-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	 	 
+-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	 	 
                                   Srikaanth stores                             
-
-"                No 13,Madipakkam Main road, Madipakkam
-                 chennai-600091 MOBILE NUMBER : 8778092772                                                          "
-
+['                No 13,Madipakkam Main road, Madipakkam\n                 chennai-600091 MOBILE NUMBER : 8778092772                                                          ']
                  GSTIN  1234ZXVC26520YN        counter no 1  
-
                               Payment mode : card 
-
-                Bill No : 1            Tue Aug 30 23:18:53 2022 
-
+                Bill No : 1            Wed Aug 31 13:58:10 2022 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-
-Name       mrp       qty        ammount  
-
-apple       12.0       2                24
-
+Name           mrp           qty            total 
+apple          24.0          2              48
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-
-Total items : 1 , Total quantity : 2.0 , Total Ammount : 24 
-
-Ammount to be paid : 30
-
-Ammount in words : thirty only
-
-  Recived Ammount : 30
-
-  Balance Paid : 0
-
+water          35.4          2              71
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-
+Total items : 2 	 Total quantity : 4.0 	 Total Ammount : 119 
+Ammount to be paid : 149
+Ammount in words : one hundred and forty-nine only
+   Recived Ammount : 149
+ Balance Paid : 0
+                                  Srikaanth stores                             
+['                No 13,Madipakkam Main road, Madipakkam\n                 chennai-600091 MOBILE NUMBER : 8778092772                                                          ']
+                 GSTIN  1234ZXVC26520YN        counter no 1  
+                              Payment mode : card 
+                Bill No : 2            Wed Aug 31 13:58:31 2022 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+Name           mrp           qty            total 
+energy drink          235.5          20            4710
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+Total items : 1 	 Total quantity : 20.0 	 Total Ammount : 4710 
+Ammount to be paid : 5888
+Ammount in words : five thousand, eight hundred and eighty-eight only
+   Recived Ammount : 5888
+ Balance Paid : 0
+-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	 	 
+-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	 	 
+                                  Srikaanth stores                             
+['                No 13,Madipakkam Main road, Madipakkam\n                 chennai-600091 MOBILE NUMBER : 8778092772                                                          ']
+                 GSTIN  1234ZXVC26520YN        counter no 1  
+                              Payment mode : card 
+                Bill No : 1            Wed Aug 31 13:59:43 2022 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+Name                   mrp           qty            total 
+appple                12.0          2              24
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+water                 23.0          3              69
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+Total items : 2 	 Total quantity : 5.0 	 Total Ammount : 93 
+Ammount to be paid : 116
+Ammount in words : one hundred and sixteen only
+   Recived Ammount : 116
+ Balance Paid : 0
+                                  Srikaanth stores                             
+['                No 13,Madipakkam Main road, Madipakkam\n                 chennai-600091 MOBILE NUMBER : 8778092772                                                          ']
+                 GSTIN  1234ZXVC26520YN        counter no 1  
+                              Payment mode : card 
+                Bill No : 2            Wed Aug 31 14:00:02 2022 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+Name                   mrp           qty            total 
+energy drink          356.1          23            8190
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+Total items : 1 	 Total quantity : 23.0 	 Total Ammount : 8190 
+Ammount to be paid : 10238
+Ammount in words : ten thousand, two hundred and thirty-eight only
+   Recived Ammount : 10238
+ Balance Paid : 0
+-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	 	 
+-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	 	 
