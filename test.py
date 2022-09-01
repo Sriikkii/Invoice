@@ -21,3 +21,62 @@ def read():
             for j in i:
                 print(j)
 read()
+
+
+
+
+def between(l,t):
+    sum = 0
+    date = ''
+    invi = ''
+    pro = ''
+    id = ''
+    stocks = ''
+    for i in l:
+        if len(i) == 3:
+            for j in t:
+                if i[0].lower() in j[0].lower():
+                    stocks += j[1] + ',' + ' '
+            pro += i[0] + ',' + ' '
+            id += str(i[1]) + ',' + ' '
+        else:
+            date += i[0] + ',' + ' '
+            invi += str(i[1]) + ',' + ' '
+            sum += i[2]
+
+    print('Dates: ', date)
+    print('Invoice no: ', invi)
+    print('Product id: ', id)
+    print('Products: ', pro)
+    print('Total amount sold: ', sum)
+
+
+
+
+
+
+
+
+    def checking():
+    global date
+    global i1
+    global q1
+    global v 
+    global f
+    global j 
+    x = input("Enter the date you want to check :")
+    if x in date :
+        while True:
+            for  i in f:
+                sum = 0 
+                items = 0
+                quantity = 0
+                while True:
+                    
+                    print(v)
+                    print(g)
+                    print(j)
+                    read()
+                    break
+                break
+            break
