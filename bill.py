@@ -1,10 +1,23 @@
 #hi
+
+
 from num2words import num2words 
 import csv 
 #import time
 #import random
 net_ammount = 0
 b = 0
+i1 = 0
+q1 = 0 
+v = net_ammount
+j = 0
+g =0
+quantity = 0
+l =[]
+m = 0
+z =0 
+k =0
+dict ={}
 def number ():
     f = open ("bill.csv","a")
     sw = csv.writer(f)
@@ -44,18 +57,27 @@ def number ():
                 sw.writerow([num])
         
 s = []
-f = open("bill.csv",'a' , newline='')
+f = open("bill.csv",'a+' , newline='')
 def invoice():
-    
+    global dict
+    global l
+    global i1
+    global q1 
+    global date
     global b
     import csv 
     import time
     import random
-    f = open("bill.csv",'a',newline='')
+    f = open("bill.csv",'a+',newline='')
+    o = open("products.csv",'r',newline='')
+    c = csv.reader(o)
+    for i in c:
+        print(i)
     sw = csv.writer(f,delimiter='\t')
+    date = input("Enter the date : ")
     k = ["                                  Srikaanth stores                             "]
     sw.writerow(k)
-    address = [["                No 13,Madipakkam Main road, Madipakkam\n                 chennai-600091 MOBILE NUMBER : 8778092772                                                          "]]
+    address = [["                No 13 Madipakkam Main road  Madipakkam chennai-600091 MOBILE NUMBER : 8778092772                                                          "]]
     sw.writerow(                                    address                                       )
     g = " 1234ZXVC26520YN"
     print("only 4 counters are there")
@@ -78,9 +100,10 @@ def invoice():
         print("Invalid choice,enter number from 1 to 4")
     sw.writerow([f"                              Payment mode : {t_payment} "                               ])
     time = time.asctime()
-    t = time.split()
-    sw.writerow([            f"                Bill No : {b}            "   f"{time} "           ])
-    lines = ("------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  ")
+    t1 = time.split()
+    now = t1[3]
+    sw.writerow([            f"                Bill No : {b}            "   f"{now} "   f"{date}"         ])
+    lines = ("------------------------------------------------------------------------------------------------------------------------------------------------------")
     sw.writerow([                    lines                                 ])
     particulars = 'Particulars'
     mrp = 'MRP'
@@ -119,6 +142,10 @@ def invoice():
             net_ammount = am + am2
             sw.writerow([f"Ammount to be paid : {net_ammount}"])
             sw.writerow([f"Ammount in words : {num2words(net_ammount)} only"])
+            j = [i1,q,net_ammount,date,item]
+            dict = {1: i1 , 2 : q , 3: net_ammount, 4 : date , 5: item}
+            l.append(j)
+            
             while True :
                 if t_payment == "cash" :
                     print(net_ammount)
@@ -145,19 +172,21 @@ def invoice():
                             sw.writerow([f"  Balance ammount : {h} "])
                 else :
                     sw.writerow([f"   Recived Ammount : {net_ammount}"])
-                    sw.writerow([  f" Balance Paid : 0"])
+                    sw.writerow([f"   Balance Paid : 0"])
+                sw.writerow([lines])
                 break
             break
-
-
-        
-
-
-                
-    
     
 def start():
     global b
+    global date
+    global i1
+    global q1
+    global sum 
+    global f
+    global j 
+    global g
+    global quantity
     print("hi")
     sw = csv.writer(f,delimiter='\t')
     lines = ("------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  ")
@@ -165,7 +194,9 @@ def start():
     if ki == 'y':
         while True :
             b+=1
-            invoice()            
+            invoice() 
+            
+
             co = input("are you going to bill for another customer? If yes enter y ").lower()
             sw.writerow(                    lines                                 )
             if co != 'y':
@@ -173,10 +204,55 @@ def start():
         
     else:
         print("Thank you")
+
+#start()
+def read():
+    with open('bill.csv', 'r', newline='') as f:
+        sr=csv.reader(f)
+        for i in sr:
+            for j in i:
+                print(j)
+
+
+def checking() :
+    global dict 
+    global l
+    global m 
+    global z 
+    global k
+    global b
+    f = open("bill.csv","r",newline='')
+    c = csv.reader(f)
+    d = input("enter the date you want to check")
+    h =[]
+    h.append(d)
+    while True:
+        for i in f :
+            if d in dict.values():
+                for p in l:
+                    read()
+                    print(p[-1])
+                    m += p[1]
+                    z += p[0]
+                    k += p[2]
+            else :
+                print("ughh You might have entered the WRONG date or nothing must have been sold ")
+                break 
+                
+            break
+        break
+            
         
-start()
+    print(f"Quantity that sold today : {m}")
+    print(f"Stuffs that sold for today is {k}")
+    print(f"Number of quantites sold today : {z}")
+#checking()  
 
 
+
+               
+            
+    
             
     
 
